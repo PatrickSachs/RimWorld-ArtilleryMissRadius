@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+  <Operation Class="PatchOperationSequence">
+    <operations>
+      <li Class="PatchOperationReplace">
+        <xpath>Defs/ThingDef[defName="VFES_Artillery_Weapon"]/verbs/li/forcedMissRadius</xpath>
+        <value>
+          <forcedMissRadius>9</forcedMissRadius>
+        </value>
+      </li>
+    </operations>
+  </Operation>
+</Patch>
